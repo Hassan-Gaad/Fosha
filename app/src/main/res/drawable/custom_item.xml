@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+   <solid
+       android:color="#70C7C7C7"
+       />
+    <!--
+       stroke with color and width for creating outer line
+    -->
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF" />
+</shape>

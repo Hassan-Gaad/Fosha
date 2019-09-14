@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@drawable/rounded_corner_txtviews"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top place"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_1"
+        android:background="@color/light_gray"
+        android:padding="4dp"
+        android:textColor="@color/ef_white"
+        />
+
+    <TextView
+        android:id="@+id/Author"
+        style="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="4dp"
+        android:background="@drawable/round_shap_image_view"
+        android:gravity="center_vertical"
+        android:text="hassan" />
+
+
+    <TextView
+        android:id="@+id/NumStars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/margin_1"
+        android:layout_marginBottom="@dimen/margin_1"
+        android:gravity="center"
+        android:text="7" />
+
+
+    <TextView
+        android:id="@+id/Title"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:fontFamily="@font/merienda_bold"
+        android:gravity="center"
+        android:lines="2"
+        android:padding="4dp"
+        android:background="@drawable/rounded_corner_txtviews"
+        android:maxLines="3"
+        android:text="Bazooka Fried Chicken Egypt"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/tajawal_regular"
+        android:gravity="start"
+        android:lineSpacingExtra="5dp"
+        android:maxLines="10"
+        android:background="@color/cardview_shadow_end_color"
+        android:overScrollMode="always"
+        android:paddingBottom="2dp"
+        android:textSize="16sp"
+        android:text="@string/lorem" />
+
+</LinearLayout>
